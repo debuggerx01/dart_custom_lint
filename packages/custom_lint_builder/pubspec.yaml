@@ -12,10 +12,18 @@ dependencies:
   collection: ^1.16.0
   # Using tight constraints as custom_lint_builder communicate with each-other
   # using a specific contract
-  custom_lint: 0.8.0
+  custom_lint:
+    git:
+      url: https://github.com/debuggerx01/dart_custom_lint.git
+      path: packages/custom_lint
+      ref: 0.8.0_fix
   # Using tight constraints as custom_lint_builder communicate with each-other
   # using a specific contract
-  custom_lint_core: 0.8.0
+  custom_lint_core:
+    git:
+      url: https://github.com/debuggerx01/dart_custom_lint.git
+      path: packages/custom_lint_core
+      ref: 0.8.0_fix
   # Using loose constraint to support a range of analyzer versions.
   custom_lint_visitor: ^1.0.0
   glob: ^2.1.1

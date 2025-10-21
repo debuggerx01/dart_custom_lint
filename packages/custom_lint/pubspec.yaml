@@ -15,7 +15,11 @@ dependencies:
   ci: ^0.1.0
   cli_util: ^0.4.2
   collection: ^1.16.0
-  custom_lint_core: 0.8.0
+  custom_lint_core:
+    git:
+      url: https://github.com/debuggerx01/dart_custom_lint.git
+      path: packages/custom_lint_core
+      ref: 0.8.0_fix
   freezed_annotation: ^3.0.0
   json_annotation: ^4.7.0
   meta: ^1.7.0
